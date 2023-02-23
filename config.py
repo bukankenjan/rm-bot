@@ -6,8 +6,8 @@ load_dotenv()
 """ General config """
 # Set ENV to any value to use webhook instead of polling for bot. Must be set in prod environment.
 ENV = getenv("ENV")
-TZ_OFFSET = 8.0  # (UTC+08:00)
-JOB_LIMIT_PER_PERSON = 10
+TZ_OFFSET = 7.0  # (UTC+08:00)
+JOB_LIMIT_PER_PERSON = 5
 
 """ Telegram config """
 TELEGRAM_BOT_TOKEN = getenv("TELEGRAM_BOT_TOKEN")
